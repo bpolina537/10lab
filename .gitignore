@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Go
+*.exe
+*.exe~
+*.test
+*.out
+go.work
+go.work.sum
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Benchmarks results
+*.png
+*.json
+!requirements*.json
+
+# Rust (если понадобится)
+target/
+Cargo.lock
