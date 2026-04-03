@@ -1,0 +1,13 @@
+=== Go Gin (http://localhost:8080/ping) ===
+Requests per second: 2135.49 [#/sec] (mean)
+Time per request: 4.683 ms (mean)
+Complete requests: 500
+Failed requests: 0
+
+=== FastAPI (http://localhost:8000/ping) ===
+Requests per second: 194.38 [#/sec] (mean)
+Time per request: 51.445 ms (mean)
+Complete requests: 500
+Failed requests: 0
+
+Вывод: Go Gin быстрее FastAPI в 11 раз по RPS и по времени ответа.
